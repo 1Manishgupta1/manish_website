@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    position: sticky;
+    top: 0%; /*position: sticky; must come with postion where you want it to stick */
+  
+    font-size: 2rem;
+    background-image: linear-gradient(to right,rgb(253, 253, 15),rgb(252, 14, 14));
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+  }
+  nav .left {
+    width: 60%;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav .left img {
+    width: 4rem;
+    margin-right: -7rem;
+  }
+  nav .left input {
+    width: 20rem;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    border: none;
+  }
+  
+  nav .right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 4rem;
+  }
+  nav .right a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
